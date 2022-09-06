@@ -4,17 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/index.css">
+  <link type="text/css" rel="stylesheet" href="styles/index.css">
   <title>Просвещение</title>
 </head>
-<body>
+<body class="root">
   <header class="header">
     <nav class="menu">
-
+      <ul class="menu__links">
+        <li>
+          <a class="menu__link" href="#">Призы</a>
+        </li>
+        <li>
+          <a class="menu__link" href="#">Как принять участие?</a>
+        </li>
+        <li>
+          <a class="menu__link" href="#">Победители</a>
+        </li>
+      </ul>
     </nav>
   </header>
-  <main class="content">
-
+  <main class="content" role="main">
+    <section class="hero">
+      <div class="hero__info">
+        <img class="logo" src="/images/logo/лого.svg" alt="ИП Просвещение основано в 1930">
+        <h1 class="hero__title">Время ЗНАТЬ,<br>время СЛУШАТЬ,<br>время ВЫИГРЫВАТЬ!</h1>
+        <button class="hero__button" type="button">ЗАРЕГИСТРИРУЙТЕ № ЗАКАЗА</button>
+      </div>
+      <div class="hero__image-container">
+        <img class="hero__image" src="./images/content/hero.png" alt="мальчик и три девочки лежат на траве и пишут в тетрадях">
+      </div>      
+    </section>
   </main>
   <footer class="footer">
 

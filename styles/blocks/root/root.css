@@ -1,0 +1,8 @@
+.root {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;  
+  overflow: hidden;
+  z-index: 1;
+  font-family: 'Circe', Arial, Helvetica, sans-serif;
+}

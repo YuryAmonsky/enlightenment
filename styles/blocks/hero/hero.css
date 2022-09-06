@@ -1,0 +1,8 @@
+.hero {
+  min-height: 680px;
+  display: flex;
+  background-image: url(../../../images/decoration/Intersect.svg);
+  background-position: 0px 75px;
+  background-repeat: no-repeat;
+  color: #fff;
+}
