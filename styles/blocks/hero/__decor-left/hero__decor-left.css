@@ -1,0 +1,7 @@
+.hero__decor-left {
+  margin-left: 95px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  background-image: url(../../../../images/decoration/mom&son.png);
+}

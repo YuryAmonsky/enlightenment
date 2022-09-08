@@ -1,0 +1,9 @@
+.hero__decor-right {
+  position: relative;
+  left: -90px;
+  margin-top: 1px;
+  width: 300px;
+  height: 300px;  
+  object-fit: cover;
+  background-image: url(../../../../images/decoration/boy.png);
+}

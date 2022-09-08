@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link type="text/css" rel="stylesheet" href="styles/index.css">
   <title>Просвещение</title>
 </head>
+
 <body class="root">
   <header class="header">
     <nav class="menu">
@@ -25,18 +27,40 @@
   </header>
   <main class="content" role="main">
     <section class="hero">
-      <div class="hero__info">
-        <img class="logo" src="/images/logo/лого.svg" alt="ИП Просвещение основано в 1930">
-        <h1 class="hero__title">Время ЗНАТЬ,<br>время СЛУШАТЬ,<br>время ВЫИГРЫВАТЬ!</h1>
-        <button class="hero__button" type="button">ЗАРЕГИСТРИРУЙТЕ № ЗАКАЗА</button>
+      <div class="hero__general-container">
+        <div class="hero__general">
+          <img class="logo" src="/images/logo/лого.svg" alt="ИП Просвещение основано в 1930">
+          <h1 class="hero__title">
+            Время <span class="accent-uppercase">знать</span>,<br>
+            время <span class="accent-uppercase">слушать</span>,<br>
+            время <span class="accent-uppercase">выигрывать</span>!</h1>
+          <button class="hero__reg-button" type="button"><span class="accent-uppercase">зарегистриуйте № заказа</span></button>
+        </div>
+        <div class="hero__image-container">
+          <img class="hero__image" src="./images/content/hero.png"
+            alt="мальчик и три девочки лежат на траве и пишут в тетрадях">
+        </div>
       </div>
-      <div class="hero__image-container">
-        <img class="hero__image" src="./images/content/hero.png" alt="мальчик и три девочки лежат на траве и пишут в тетрадях">
-      </div>      
+      <div class="hero__announcement-container">
+        <div class="hero__decor-left"></div>
+        <article class="hero__announcement">
+          <p class="hero__announcement-text">
+            <span class="accent-bold">С 15 сентября по 15 октября</span><br>
+            участвуйте в акции<br>интернет-магазина<br>издательства «Просвещение»<br>и
+            <span class="accent-uppercase accent-bold">выигрывайте призы!</span>
+          </p>
+        </article>
+        <div class="hero__decor-right"></div>
+      </div>
+    </section>
+    <section class="prizes">
+    
+
     </section>
   </main>
   <footer class="footer">
 
   </footer>
 </body>
+
 </html>

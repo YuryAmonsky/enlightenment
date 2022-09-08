@@ -1,8 +1,15 @@
 .hero {
-  min-height: 680px;
+  position: relative;  
+  z-index: 1;
+  margin-bottom: 100px;
+  min-height: 745px;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-image: url(../../../images/decoration/Intersect.svg);
-  background-position: 0px 75px;
+  background-size: 1275.35px 604.83px;
+  background-position: 0 75px;
   background-repeat: no-repeat;
   color: #fff;
+  outline: 1px solid blue;
 }

@@ -1,0 +1,6 @@
+.hero__announcement-container {
+  position: relative;
+  margin-top: 86px; 
+  width: 100%;
+  display: flex;
+}

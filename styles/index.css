@@ -1,5 +1,7 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(./blocks/accent-bold/accent-bold.css);
+@import url(./blocks/accent-uppercase/accent-uppercase.css);
 @import url(./blocks/root/root.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/menu/menu.css);
@@ -7,9 +9,15 @@
 @import url(./blocks/menu/__menu-link/menu__link.css);
 @import url(./blocks/content/content.css);
 @import url(./blocks/hero/hero.css);
-@import url(./blocks/hero/__info/hero__info.css);
+@import url(./blocks/hero/__general-container/hero__general-container.css);
+@import url(./blocks/hero/__general/hero__general.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/hero/__title/hero__title.css);
-@import url(./blocks/hero/__button/hero__button.css);
-@import url(./blocks/hero/__image-container/);
+@import url(./blocks/hero/__reg-button/hero__reg-button.css);
+@import url(./blocks/hero/__image-container/hero__image-container.css);
 @import url(./blocks/hero/__image/hero__image.css);
+@import url(./blocks/hero/__announcement-container/hero__announcement-container.css);
+@import url(./blocks/hero/__decor-left/hero__decor-left.css);
+@import url(./blocks/hero/__announcement/hero__announcement.css);
+@import url(./blocks/hero/__announcement-text/hero__announcement-text.css);
+@import url(./blocks/hero/__decor-right/hero__decor-right.css);
