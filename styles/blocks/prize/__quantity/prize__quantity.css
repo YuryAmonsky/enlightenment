@@ -1,4 +1,5 @@
 .prize__quantity {
+  margin: 0;
   width: 150px;
   height: 40px;
   display: flex;
