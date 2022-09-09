@@ -21,3 +21,11 @@
 @import url(./blocks/hero/__announcement/hero__announcement.css);
 @import url(./blocks/hero/__announcement-text/hero__announcement-text.css);
 @import url(./blocks/hero/__decor-right/hero__decor-right.css);
+@import url(./blocks/prizes/prizes.css);
+@import url(./blocks/prizes/__question/prizes__question.css);
+@import url(./blocks/prizes/__list/prizes__list.css);
+@import url(./blocks/prize/prize.css);
+@import url(./blocks/prize/__image-background/prize__image-background.css);
+@import url(./blocks/prize/__image/prize__image.css);
+@import url(./blocks/prize/__name/prize__name.css);
+@import url(./blocks/prize/__quantity/prize__quantity.css);

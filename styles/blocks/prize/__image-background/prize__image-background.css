@@ -1,0 +1,10 @@
+.prize__image-background {
+  position: absolute;
+  width: 150px;
+  height: 150px;  
+  top: 50px;
+  left:50px;
+  background: #547aff;
+  filter: blur(50px);
+  z-index: 1;
+}

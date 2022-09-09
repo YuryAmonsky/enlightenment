@@ -1,0 +1,20 @@
+.prize__image {
+  position: relative;
+  margin-bottom: 50px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  z-index: 2;
+}
+/*
+.prize__image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2a2c2f;
+  opacity: 1;
+  transition: .3s;
+}*/

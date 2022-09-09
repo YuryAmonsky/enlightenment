@@ -1,0 +1,10 @@
+.prize__quantity {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 30px;
+  background: #b1c2ff;
+}
