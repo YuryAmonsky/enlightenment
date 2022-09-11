@@ -2,3 +2,10 @@
   background: #1535a3;
   color: #fff;
 }
+
+.reg-button_theme_blue:hover {
+  border: 1px solid #1535a3;
+  box-sizing: border-box;
+  background: #fff;
+  color: #1535a3;
+}

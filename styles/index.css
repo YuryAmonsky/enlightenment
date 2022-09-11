@@ -52,4 +52,5 @@
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__terms/footer__terms.css);
 @import url(./blocks/footer/__socials/footer__socials.css);
+@import url(./blocks/footer/__social-icon/footer__social-icon.css);
 @import url(./blocks/footer/__email/footer__email.css);

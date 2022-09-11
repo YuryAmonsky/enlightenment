@@ -7,11 +7,11 @@
   line-height: 19px;
   text-align: center;
   text-decoration: none;
-  color: #1535a3;
-  opacity: 1;
+  color: #1535a3;  
   transition: .3s;
 }
 
 .footer__terms:hover {
-  opacity: .8;
+  color: #b1c2ff;
+  border-bottom: 1px solid #b1c2ff;
 }

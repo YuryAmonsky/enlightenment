@@ -8,5 +8,13 @@
   font-weight: 800;
   font-size: 20px;
   line-height: 29px;
-  color: #1535A3;
+  color: #1535a3;
+  transition: .3s;
+}
+
+.reg-button:hover {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  background: #1535a3;
+  color: #fff;
 }

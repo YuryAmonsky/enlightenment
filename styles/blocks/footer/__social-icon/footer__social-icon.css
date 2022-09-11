@@ -1,0 +1,9 @@
+.footer__social-icon {
+  width: 50px;
+  border-radius: 50%;
+  background-color: #1535a3;
+}
+
+.footer__social-icon:hover {
+  background-color: #b1c2ff;
+}
