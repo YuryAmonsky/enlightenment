@@ -1,4 +1,6 @@
 .hero__image-container {
-  position: relative;
+  position: absolute;
+  top: -75px;
+  left: 745px;
   z-index: 2;  
 }
