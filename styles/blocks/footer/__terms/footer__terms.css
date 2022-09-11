@@ -1,0 +1,17 @@
+.footer__terms {
+  margin: 25px auto 100px;
+  border-bottom: 1px solid #1535a3;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  color: #1535a3;
+  opacity: 1;
+  transition: .3s;
+}
+
+.footer__terms:hover {
+  opacity: .8;
+}

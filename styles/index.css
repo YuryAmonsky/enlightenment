@@ -13,7 +13,8 @@
 @import url(./blocks/hero/__general/hero__general.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/hero/__title/hero__title.css);
-@import url(./blocks/hero/__reg-button/hero__reg-button.css);
+@import url(./blocks/reg-button/reg-button.css);
+@import url(./blocks/reg-button/_theme/reg-button_theme_blue.css);
 @import url(./blocks/hero/__image-container/hero__image-container.css);
 @import url(./blocks/hero/__image/hero__image.css);
 @import url(./blocks/hero/__announcement-container/hero__announcement-container.css);
@@ -48,3 +49,7 @@
 @import url(./blocks/participation/__delimiter/_type/participation__delimiter_type_second.css);
 @import url(./blocks/participation/__delimiter/_type/participation__delimiter_type_fird.css);
 @import url(./blocks/participation/__arrow-icon/participation__arrow-icon.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__terms/footer__terms.css);
+@import url(./blocks/footer/__socials/footer__socials.css);
+@import url(./blocks/footer/__email/footer__email.css);

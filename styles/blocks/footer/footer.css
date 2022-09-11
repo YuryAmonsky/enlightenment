@@ -1,0 +1,15 @@
+.footer {
+  margin: 0;
+  padding-top: 99px;
+  padding-bottom: 552px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 970px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../../../images/decoration/kids.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline: 1px solid blue;
+}
