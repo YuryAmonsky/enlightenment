@@ -5,3 +5,12 @@
   object-fit: cover;
   background-image: url(../../../../images/decoration/mom&son.png);
 }
+
+@media screen and (max-width: 639px) {
+  .hero__decor-left {
+    margin-left: -20px;
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+  }
+}

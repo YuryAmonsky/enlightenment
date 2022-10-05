@@ -1,0 +1,15 @@
+.burger-button {
+  display: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 20px;
+  height: 17px;
+  background: url(../../../images/ui/burger.svg);
+}
+
+@media screen and (max-width: 639px) {
+  .burger-button {
+    display: block;
+  }
+}

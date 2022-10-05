@@ -1,6 +1,12 @@
 .hero__announcement-container {
   position: relative;
-  margin-top: 86px; 
+  margin-top: 86px;
   width: 100%;
   display: flex;
+}
+
+@media screen and (max-width: 639px) {
+  .hero__announcement-container {
+    margin-top: 55px;
+  }
 }

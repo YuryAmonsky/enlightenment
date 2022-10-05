@@ -2,5 +2,12 @@
   position: absolute;
   top: -75px;
   left: 745px;
-  z-index: 2;  
+  z-index: 2;
+}
+
+@media screen and (max-width: 639px) {
+  .hero__image-container {
+    top: 0;
+    left: 350px;
+  }
 }

@@ -3,3 +3,9 @@
   display: flex;
   align-items: stretch;
 }
+
+@media screen and (max-width: 639px) {
+  .menu {
+    display: none;
+  }
+}

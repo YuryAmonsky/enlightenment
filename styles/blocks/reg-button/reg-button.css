@@ -1,4 +1,4 @@
-.reg-button{
+.reg-button {
   width: 408px;
   height: 55px;
   background: #fff;
@@ -17,4 +17,13 @@
   box-sizing: border-box;
   background: #1535a3;
   color: #fff;
+}
+
+@media screen and (max-width: 639px) {
+  .reg-button {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 14px;
+  }
 }

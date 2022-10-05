@@ -1,4 +1,11 @@
-.hero__image {  
+.hero__image {
   width: 600px;
-  height: 450px;  
+  height: 450px;
+}
+
+@media screen and (max-width: 639px) {
+  .hero__image {
+    width: 300px;
+    height: 220px;
+  }
 }
