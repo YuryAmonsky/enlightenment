@@ -1,3 +1,9 @@
 .prize__name_type_station {
   width: 175px;
 }
+
+@media screen and (max-width: 640px) {
+  .prize__name_type_station {
+    width: 102px;    
+  }
+}

@@ -9,3 +9,10 @@
   /* Style */
   color: #1535a3;
 }
+
+@media screen and (max-width: 640px) {
+  .prize__name {
+    margin: 0 0 19px;
+    font-size: 14px;
+  }
+}

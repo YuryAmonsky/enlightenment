@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 639px) {
   .hero {
-    top: -55px;
+    margin-bottom: 47px;
+    /*top: -55px;*/
     min-height: 341.27px;
     background-image: url(../../../images/decoration/Intersect_640.svg);
     background-size: 621px 341.27px;

@@ -1,3 +1,9 @@
 .prize__name_type_ritmix {
   width: 278px;
 }
+
+@media screen and (max-width: 640px) {
+  .prize__name_type_ritmix {    
+    width: 162px;    
+  }
+}

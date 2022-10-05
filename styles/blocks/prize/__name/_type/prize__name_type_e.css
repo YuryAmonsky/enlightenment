@@ -1,5 +1,11 @@
 .prize__name_type_e {
-  padding: 0 20px;
+  padding: 0;
   box-sizing: border-box;
   width: 314px;
+}
+
+@media screen and (max-width: 640px) {
+  .prize__name_type_e {
+    width: 183px;    
+  }
 }

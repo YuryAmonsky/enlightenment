@@ -1,4 +1,5 @@
 .content {
-  position: relative;  
+  position: relative;
+  top: -55px;
   z-index: 1;
 }

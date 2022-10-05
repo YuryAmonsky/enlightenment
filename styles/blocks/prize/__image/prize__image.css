@@ -18,3 +18,11 @@
   opacity: 1;
   transition: .3s;
 }*/
+
+@media screen and (max-width: 640px) {
+  .prize__image {
+    margin-bottom: 25px;
+    width: 100px;
+    height: 100px;
+  }
+}
