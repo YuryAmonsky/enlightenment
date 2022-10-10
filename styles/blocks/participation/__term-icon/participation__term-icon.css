@@ -3,3 +3,10 @@
   height: 74.98px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 640px) {
+  .participation__term-icon {
+    margin-bottom: 25px;
+    height: 40px;
+  }
+}

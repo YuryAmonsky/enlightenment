@@ -7,3 +7,9 @@
   text-align: center;
   color: #1535a3;
 }
+
+@media screen and (max-width: 640px) {
+  .footer__email {
+    margin-top: 11.15px;
+  }
+}

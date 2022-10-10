@@ -1,3 +1,11 @@
-.participation__arrow-icon {  
+.participation__arrow-icon {
   width: 100px;
+  height: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .participation__arrow-icon {
+    width: 75px;
+    height: 14.56px;
+  }
 }

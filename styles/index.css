@@ -48,7 +48,7 @@
 @import url(./blocks/participation/__term-whole/participation__term-whole.css);
 @import url(./blocks/participation/__delimiter/_type/participation__delimiter_type_first.css);
 @import url(./blocks/participation/__delimiter/_type/participation__delimiter_type_second.css);
-@import url(./blocks/participation/__delimiter/_type/participation__delimiter_type_fird.css);
+@import url(./blocks/participation/__delimiter/_type/participation__delimiter_type_third.css);
 @import url(./blocks/participation/__arrow-icon/participation__arrow-icon.css);
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__terms/footer__terms.css);

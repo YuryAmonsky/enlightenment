@@ -1,0 +1,12 @@
+.participation__delimiter_type_third {
+  margin-left: -34px;
+}
+
+@media screen and (max-width: 640px) {
+  .participation__delimiter_type_third {
+    margin-top: -18px;
+    margin-left: auto;
+    margin-right: 130.44px;
+    transform: rotate(90deg);
+  }
+}

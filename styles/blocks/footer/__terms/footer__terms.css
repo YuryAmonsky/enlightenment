@@ -7,11 +7,19 @@
   line-height: 19px;
   text-align: center;
   text-decoration: none;
-  color: #1535a3;  
+  color: #1535a3;
   transition: .3s;
 }
 
 .footer__terms:hover {
   color: #b1c2ff;
   border-bottom: 1px solid #b1c2ff;
+}
+
+@media screen and (max-width: 640px) {
+  .footer__terms {
+    margin: 25px auto 50px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

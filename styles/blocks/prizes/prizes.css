@@ -1,5 +1,5 @@
 .prizes {
-  margin: 0 249px 100px 199px;
+  margin: 0 auto 100px;
   max-width: 992px;
   width: 992px;
   min-height: 540px;
@@ -12,9 +12,9 @@
 
 @media screen and (max-width: 640px) {
   .prizes {
-    margin: 0 71px 50px 41px;
+    margin: 0 auto 50px;
     max-width: 528px;
-    width: 528px;    
+    width: 528px;
     min-height: 324px;
   }
 }

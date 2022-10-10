@@ -1,8 +1,17 @@
 .participation {
+  padding-bottom: 56px;
+  box-sizing: border-box;
   min-height: 550px;
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
   background: linear-gradient(90deg, #2C4BBB -5.28%, #547AFF 103.06%);
   color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .participation {
+    padding-bottom: 29.55px;
+    background: linear-gradient(90deg, #2C4BBB 0%, #547AFF 100%);
+  }
 }

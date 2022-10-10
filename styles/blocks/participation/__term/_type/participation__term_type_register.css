@@ -1,3 +1,9 @@
 .participation__term_type_register {
   width: 192px;
 }
+
+@media screen and (max-width: 640px) {
+  .participation__term_type_register {
+    width: 280px;
+  }
+}

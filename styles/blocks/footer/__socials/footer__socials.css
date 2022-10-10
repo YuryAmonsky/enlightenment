@@ -5,4 +5,11 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-}  
+}
+
+@media screen and (max-width: 640px) {
+  .footer__socials {
+    width: 224px;
+    height: 40px;
+  }
+}

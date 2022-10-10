@@ -1,5 +1,10 @@
 .content {
   position: relative;
-  top: -55px;
   z-index: 1;
+}
+
+@media screen and (max-width: 640px) {
+  .content {
+    top: -55px;
+  }
 }

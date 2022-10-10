@@ -1,3 +1,9 @@
 .participation__term_type_gifts {
   width: 297px;
 }
+
+@media screen and (max-width: 640px) {
+  .participation__term_type_gifts {
+    width: 280px;
+  }
+}

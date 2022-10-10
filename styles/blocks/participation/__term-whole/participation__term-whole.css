@@ -1,8 +1,17 @@
 .participation__term-whole {
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   /* or 25px */
   text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .participation__term-whole {
+    margin-bottom: 20.45px;
+    font-size: 14px;
+  }
 }

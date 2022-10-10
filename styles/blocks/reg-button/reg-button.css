@@ -19,11 +19,11 @@
   color: #fff;
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .reg-button {
     width: 250px;
     height: 40px;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }

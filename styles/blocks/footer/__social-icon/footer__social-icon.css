@@ -7,3 +7,10 @@
 .footer__social-icon:hover {
   background-color: #b1c2ff;
 }
+
+@media screen and (max-width: 640px) {
+  .footer__social-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
