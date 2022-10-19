@@ -3,7 +3,7 @@
   height: 450px;
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .hero__image {
     width: 300px;
     height: 220px;

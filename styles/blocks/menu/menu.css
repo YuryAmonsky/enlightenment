@@ -4,7 +4,7 @@
   align-items: stretch;
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .menu {
     display: none;
   }

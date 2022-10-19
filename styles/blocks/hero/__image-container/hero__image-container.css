@@ -5,7 +5,7 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .hero__image-container {
     top: 0;
     left: 350px;

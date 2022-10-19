@@ -6,7 +6,7 @@
   background-image: url(../../../../images/decoration/mom&son.png);
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .hero__decor-left {
     margin-left: -20px;
     width: 200px;

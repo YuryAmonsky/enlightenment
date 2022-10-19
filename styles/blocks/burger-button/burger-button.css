@@ -8,7 +8,7 @@
   background: url(../../../images/ui/burger.svg);
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .burger-button {
     display: block;
   }

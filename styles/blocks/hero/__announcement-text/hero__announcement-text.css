@@ -3,7 +3,7 @@
   width: 327px;
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .hero__announcement-text {
     width: 190px;
   }
