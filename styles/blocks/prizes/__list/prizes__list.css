@@ -1,8 +1,15 @@
 .prizes__list {
-  margin:0;
+  margin: 0;
   padding: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
+
+@media screen and (max-width: 320px) {
+  .prizes__list {    
+    flex-direction: column;
+    row-gap: 35px;
+  }
 }

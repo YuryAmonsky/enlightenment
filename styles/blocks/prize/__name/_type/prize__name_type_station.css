@@ -7,3 +7,9 @@
     width: 102px;    
   }
 }
+
+@media screen and (max-width: 320px) {
+  .prize__name_type_station {
+    width: 117px;    
+  }
+}

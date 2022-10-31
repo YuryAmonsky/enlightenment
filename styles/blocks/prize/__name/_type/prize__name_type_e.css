@@ -9,3 +9,9 @@
     width: 183px;    
   }
 }
+
+@media screen and (max-width: 320px) {
+  .prize__name_type_e {
+    width: 209px;    
+  }
+}

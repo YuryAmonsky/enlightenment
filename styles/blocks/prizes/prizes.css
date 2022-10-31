@@ -1,5 +1,6 @@
 .prizes {
-  margin: 0 auto 100px;
+  margin: 0 auto;
+  padding-bottom: 100px;
   max-width: 992px;
   width: 992px;
   min-height: 540px;
@@ -12,7 +13,7 @@
 
 @media screen and (max-width: 640px) {
   .prizes {
-    margin: 0 auto 50px;
+    padding-bottom: 50px;
     max-width: 528px;
     width: 528px;
     min-height: 324px;
@@ -20,8 +21,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .prizes {
-    margin: 0 auto 50px;
+  .prizes {    
     max-width: 320px;
     width: 320px;
     min-height: 540px;
