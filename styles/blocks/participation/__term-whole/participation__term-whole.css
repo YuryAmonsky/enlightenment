@@ -10,8 +10,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .participation__term-whole {
-    margin-bottom: 20.45px;
+  .participation__term-whole {    
     font-size: 14px;
   }
 }

@@ -6,9 +6,18 @@
 
 @media screen and (max-width: 640px) {
   .participation__delimiter_type_second {
-    margin-top: -18px;
+    /*margin-top: -18px;    
     margin-left: 130px;
-    margin-right: auto;
-    transform: rotate(90deg);
+    margin-right: auto;*/
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    transform: translate(-170px, 10px) rotate(90deg);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .participation__delimiter_type_second {    
+    transform: translate(-130px, 10px) rotate(90deg);
   }
 }

@@ -15,3 +15,10 @@
     background: linear-gradient(90deg, #2C4BBB 0%, #547AFF 100%);
   }
 }
+
+@media screen and (max-width: 640px) {
+  .participation {
+    padding-bottom: 45px;
+    background: linear-gradient(180deg, #2C4BBB 0%, #547AFF 100%);
+  }
+}

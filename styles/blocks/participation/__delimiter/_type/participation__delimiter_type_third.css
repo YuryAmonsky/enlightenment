@@ -4,9 +4,19 @@
 
 @media screen and (max-width: 640px) {
   .participation__delimiter_type_third {
-    margin-top: -18px;
+    /*margin-top: -18px;
     margin-left: auto;
-    margin-right: 130.44px;
-    transform: rotate(90deg);
+    margin-right: 130.44px;*/
+    margin-left: 0;
+    transform: translate(150px, 10px) rotate(90deg);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .participation__delimiter_type_third {
+    /*margin-top: -18px;
+    margin-left: auto;
+    margin-right: 130.44px;*/
+    transform: translate(130px, 10px) rotate(90deg);
   }
 }

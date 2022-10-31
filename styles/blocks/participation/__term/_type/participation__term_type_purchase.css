@@ -3,7 +3,13 @@
 }
 
 @media screen and (max-width: 640px) {
-  .participation__term_type_purchase {
+  .participation__term_type_purchase {    
     width: 280px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .participation__term_type_purchase {
+    width: 220px;
   }
 }

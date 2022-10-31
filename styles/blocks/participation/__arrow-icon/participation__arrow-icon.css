@@ -9,3 +9,9 @@
     height: 14.56px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .participation__arrow-icon {    
+    height: 15px;
+  }
+}

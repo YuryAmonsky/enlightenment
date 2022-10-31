@@ -4,6 +4,13 @@
 
 @media screen and (max-width: 640px) {
   .participation__term_type_gifts {
+    margin-top: 15px;
     width: 280px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .participation__term_type_gifts {
+    width: 228px;
   }
 }

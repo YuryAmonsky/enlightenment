@@ -4,6 +4,13 @@
 
 @media screen and (max-width: 640px) {
   .participation__term_type_register {
+    margin-top: 15px;
     width: 280px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .participation__term_type_register {
+    width: 156px;
   }
 }
