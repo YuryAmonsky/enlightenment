@@ -2,8 +2,8 @@
   margin-left: 95px;
   width: 350px;
   height: 350px;
-  object-fit: cover;
   background-image: url(../../../../images/decoration/mom&son.png);
+
 }
 
 @media screen and (max-width: 640px) {
@@ -12,5 +12,17 @@
     width: 200px;
     height: 200px;
     background-size: 200px 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero__decor-left {    
+    margin-left: -16px;
+    padding: 0;
+    box-sizing: content-box;    
+    width: 150px;
+    height: 150px;
+    background-size: 150px 150px;
+    
   }
 }

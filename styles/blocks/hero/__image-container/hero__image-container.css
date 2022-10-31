@@ -11,3 +11,10 @@
     left: 350px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .hero__image-container {
+    top: -9.5px;
+    left: 189px;
+  }
+}

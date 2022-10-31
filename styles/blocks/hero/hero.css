@@ -2,7 +2,7 @@
   position: relative;
   z-index: 1;
   margin-bottom: 100px;
-  min-height: 745px;
+  /*min-height: 745px;*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -17,9 +17,20 @@
   .hero {
     margin-bottom: 47px;
     /*top: -55px;*/
-    min-height: 341.27px;
+    /*min-height: 341.27px;*/
     background-image: url(../../../images/decoration/Intersect_640.svg);
     background-size: 621px 341.27px;
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero {
+    margin-bottom: 0;
+    padding-bottom: 18px;
+    box-sizing: border-box;  
+    /*min-height: 287px;*/
+    background-image: url(../../../images/decoration/Intersect_320.svg);
+    background-size: 320px 287px;
   }
 }

@@ -13,3 +13,10 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .burger-button {
+    height: 14px;
+    background-size: contain;
+  }
+}

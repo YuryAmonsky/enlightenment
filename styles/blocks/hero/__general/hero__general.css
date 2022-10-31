@@ -11,3 +11,9 @@
     padding-left: 40px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .hero__general {
+    padding-left: 9px;
+  }
+}

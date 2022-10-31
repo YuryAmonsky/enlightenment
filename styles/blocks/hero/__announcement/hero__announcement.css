@@ -8,10 +8,7 @@
    justify-content: center;
    align-items: center;
    background: linear-gradient(104.76deg, #2C4BBB 13.42%, #547AFF 102.05%);
-   font-style: normal;
-   font-weight: 400;
-   font-size: 24px;
-   line-height: 140%;
+
  }
 
  @media screen and (max-width: 640px) {
@@ -20,6 +17,12 @@
      margin-left: 15px;
      width: 250px;
      height: 250px;
-     font-size: 14px;
+   }
+ }
+
+ @media screen and (max-width: 320px) {
+   .hero__announcement {
+     margin-top: -45px;
+     margin-left: 35px;
    }
  }

@@ -3,10 +3,20 @@
   margin-top: 86px;
   width: 100%;
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
   .hero__announcement-container {
     margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero__announcement-container {
+    margin-top: 35px;
+    display: block;    
   }
 }

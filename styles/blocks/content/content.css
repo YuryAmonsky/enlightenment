@@ -8,3 +8,9 @@
     top: -55px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .content {
+    top: -45px;
+  }
+}
