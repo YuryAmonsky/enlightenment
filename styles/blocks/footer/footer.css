@@ -4,7 +4,6 @@
   padding-bottom: 552px;
   box-sizing: border-box;
   width: 100%;
-  /*min-height: 970px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,12 +16,18 @@
 @media screen and (max-width: 640px) {
   .footer {
     position: relative;
-    margin-top: -55px;
     padding-top: 50px;
-    padding-bottom: 262px;
-    /*min-height: 537px; */
+    padding-bottom: 262px;    
     background-image: url(../../../images/decoration/kids_footer.png);
     background-size: 642px 424px;
     background-position: -2px 113px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {    
+    padding-bottom: 130px;        
+    background-size: 360px auto;
+    background-position: -20px 128px;
   }
 }
