@@ -4,6 +4,17 @@
 @import url(./blocks/accent-uppercase/accent-uppercase.css);
 @import url(./blocks/root/root.css);
 @import url(./blocks/header/header.css);
+@import url(./blocks/burger-container/burger-container.css);
+@import url(./blocks/burger-container/_opened/burger-container_opened.css);
+@import url(./blocks/burger-menu/burger-menu.css);
+@import url(./blocks/burger-menu/_opened/burger-menu_opened.css);
+@import url(./blocks/burger-menu/__close-button/burger-menu__close-button.css);
+@import url(./blocks/burger-menu/__navigation/burger-menu__navigation.css);
+@import url(./blocks/burger-menu/__links/burger-menu__links.css);
+@import url(./blocks/burger-menu/__link/burger-menu__link.css);
+@import url(./blocks/socials/socials.css);
+@import url(./blocks/socials/__icon/socials__icon.css);
+@import url(./blocks/burger-menu/__contacts/burger-menu__contacts.css);
 @import url(./blocks/burger-button/burger-button.css);
 @import url(./blocks/menu/menu.css);
 @import url(./blocks/menu/__menu-links/menu__links.css);

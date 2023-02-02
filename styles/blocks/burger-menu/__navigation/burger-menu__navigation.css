@@ -1,0 +1,5 @@
+.burger-menu__navigation {
+  margin: 65px auto 100px;
+  display: flex;
+  justify-content: center;
+}

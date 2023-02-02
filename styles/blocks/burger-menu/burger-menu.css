@@ -1,0 +1,12 @@
+.burger-menu {
+  position: relative;
+  display: block;
+  margin-left: -320px; 
+  width: 320px;
+  min-height: 568px;
+  background-color: #1535a3;
+  background-image: url(../../../images/decoration/burger-menu_bg.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat; 
+  transition: .5s linear;
+}

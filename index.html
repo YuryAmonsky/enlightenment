@@ -10,8 +10,55 @@
 </head>
 
 <body class="root">
+  <div class="burger-container">
+    <div class="burger-menu">
+      <button class="burger-menu__close-button" type="button" onclick="handleCloseButtonClick()"></button>
+      <nav class="burger-menu__navigation">
+        <ul class="burger-menu__links">
+          <li>
+            <a class="burger-menu__link" href="#">
+              Призы
+            </a>
+          </li>
+          <li>
+            <a class="burger-menu__link" href="#">
+              Как принять участие?
+            </a>
+          </li>
+          <li>
+            <a class="burger-menu__link" href="#">
+              Победители
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="socials">
+        <li>
+          <a class="socials__link" href="#">
+            <img class="socials__icon" src="./images/logo/vk-symbol-alpha.svg" alt="логотип в контакте" />
+          </a>
+        </li>
+        <li>
+          <a class="socials__link" href="#">
+            <img class="socials__icon" src="./images/logo/ok-symbol-alpha.svg" alt="логотип однокласники" />
+          </a>
+        </li>
+        <li>
+          <a class="socials__link" href="#">
+            <img class="socials__icon" src="./images/logo/youtube-symbol-alpha.svg" alt="логотип ютьюб" />
+          </a>
+        </li>
+        <li>
+          <a class="socials__link" href="#">
+            <img class="socials__icon" src="./images/logo/telegram-symbol-alpha.svg" alt="логотип телеграм" />
+          </a>
+        </li>
+      </ul>
+      <p class="burger-menu__contacts">podarok@prosv.ru</p>
+    </div>
+  </div>
   <header class="header">
-    <button class="burger-button" type="button"></button>
+    <button class="burger-button" type="button" onclick="handleBurgerClick()"></button>
     <nav class="menu">
       <ul class="menu__links">
         <li>
@@ -150,30 +197,30 @@
     <button class="reg-button reg-button_theme_blue" type="button"><span class="accent-uppercase">зарегистриуйте №
         заказа</span></button>
     <a class="footer__terms" href="#">Условия проведения акции</a>
-    <ul class="footer__socials">
+    <ul class="socials">
       <li>
-        <a class="footer__social-link" href="#">
-          <img class="footer__social-icon" src="./images/logo/vk_alpha.svg" alt="логотип в контакте">
+        <a class="socials__link" href="#">
+          <img class="socials__icon" src="./images/logo/vk-bg-alpha.svg" alt="логотип в контакте" />
         </a>
       </li>
       <li>
-        <a class="footer__social-link" href="#">
-          <img class="footer__social-icon" src="./images/logo/ok_alpha.svg" alt="логотип однокласники">
+        <a class="socials__link" href="#">
+          <img class="socials__icon" src="./images/logo/ok-bg-alpha.svg" alt="логотип однокласники" />
         </a>
       </li>
       <li>
-        <a class="footer__social-link" href="#">
-          <img class="footer__social-icon" src="./images/logo/youtube_alpha.svg" alt="логотип ютьюб">
+        <a class="socials__link" href="#">
+          <img class="socials__icon" src="./images/logo/youtube-bg-alpha.svg" alt="логотип ютьюб" />
         </a>
       </li>
       <li>
-        <a class="footer__social-link" href="#">
-          <img class="footer__social-icon" src="./images/logo/telegram_alpha.svg" alt="логотип телеграм">
+        <a class="socials__link" href="#">
+          <img class="socials__icon" src="./images/logo/telegram-bg-alpha.svg" alt="логотип телеграм" />
         </a>
       </li>
     </ul>
     <span class="footer__email">podarok@prosv.ru</span>
   </footer>
 </body>
-
+<script src="./script/index.js"></script>
 </html>

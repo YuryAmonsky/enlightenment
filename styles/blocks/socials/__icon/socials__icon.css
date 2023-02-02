@@ -1,0 +1,15 @@
+.socials__icon {
+  width: 50px;
+  border-radius: 50%;
+  background-color: #1535a3;
+}
+
+.socials__icon:hover {
+  background-color: #b1c2ff;
+}
+
+@media screen and (max-width: 640px) {
+  .socials__icon {
+    width: 40px;
+  }
+}  
