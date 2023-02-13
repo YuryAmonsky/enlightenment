@@ -5,8 +5,8 @@
   height: 150px;
   top: 50px;  
   background: #547aff;
-  filter: blur(50px);
-  z-index: 1;
+  filter: blur(75px);  
+  z-index: -1;
 }
 
 @media screen and (max-width: 640px) {
@@ -14,6 +14,6 @@
     top: 25px;   
     width: 75px;
     height: 75px;
-    filter: blur(25px);
+    filter: blur(37.5px);
   }
 }

@@ -1,10 +1,16 @@
 .prizes__list {
   margin: 0;
   padding: 0;
+  max-width: 992px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  list-style: none;
+  justify-content: space-between;  
+}
+
+@media screen and (max-width: 640px) {
+  .prizes__list {   
+    max-width: 528px;    
+  }
 }
 
 @media screen and (max-width: 320px) {

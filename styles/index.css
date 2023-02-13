@@ -39,6 +39,7 @@
 @import url(./blocks/prizes/__list/prizes__list.css);
 @import url(./blocks/prize/prize.css);
 @import url(./blocks/prize/__image-background/prize__image-background.css);
+@import url(./blocks/prize/__image-background/_small/prize__image-background_small.css);
 @import url(./blocks/prize/__image/prize__image.css);
 @import url(./blocks/prize/__name/prize__name.css);
 @import url(./blocks/prize/__name/_type/prize__name_type_ritmix.css);
